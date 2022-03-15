@@ -109,6 +109,7 @@ form input, form button {
   left: 0;
   height: 33px;
   width: 33px;
+  transition: 0.3s;
 }
 
 .carrinho:hover, .pesquisa:hover {
