@@ -41,13 +41,21 @@ form input, form button {
 }
 
 .nav-item:hover {
+    box-shadow: 0 1px #fff;
     opacity: 0.7;
 }
 
 .logo {
+    color: white;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.logo:hover {
+  opacity: 0.7;
 }
 
 /* Lado direito da navbar*/
@@ -113,6 +121,7 @@ form input, form button {
 }
 
 .carrinho:hover, .pesquisa:hover {
+  box-shadow: 0 1px #fff;
   opacity: 0.7;
 }
 
