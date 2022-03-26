@@ -1,3 +1,4 @@
+/*---Universal style---*/
 * {
     margin: 0;
     padding: 0;
@@ -33,15 +34,6 @@ main {
     flex-grow: 1;
 }
 
-main.card {
-    display: flex;
-}
-
-main.card div.card {
-    border-radius: 10px;
-    max-height: 256px;
-}
-
 main h3 {
     text-align: center;
     align-items: center;
@@ -67,6 +59,7 @@ main button:hover {
     opacity: 0.7;
 }
 
+/*---Card style---*/
 .card {
     border: 2px solid #2c80aa;
     border-radius: 8px;
@@ -76,4 +69,13 @@ main button:hover {
     align-items: center;
     letter-spacing: 2px;
     line-height: 35px;
+}
+
+main.card {
+    display: flex;
+}
+
+main.card div.card {
+    border-radius: 10px;
+    max-height: 256px;
 }
