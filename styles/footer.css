@@ -5,12 +5,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #F8F4E3;
+}
+
 footer {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #23232e;
+    background: #2c80aa;
     width: 100vw;
     height: auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
@@ -69,7 +73,7 @@ footer {
 }
 
 .fim {
-    background: #191920;
+    background: #266c8f;
     width: 100vw;
     padding: 20px 0;
     text-align: center;
