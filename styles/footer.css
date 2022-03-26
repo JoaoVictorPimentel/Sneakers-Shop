@@ -5,12 +5,8 @@
     box-sizing: border-box;
 }
 
-body {
-    background: #F8F4E3;
-}
-
 footer {
-    position: absolute;
+    margin-top: auto;
     bottom: 0;
     left: 0;
     right: 0;
@@ -24,6 +20,7 @@ footer {
     color: white;
 }
 
+/*---Conteúdo---*/
 .conteudo-footer {
     display: flex;
     align-items: center;
@@ -46,6 +43,7 @@ footer {
     font-size: 15px;
 }
 
+/*---Contatos---*/
 .contatos {
    list-style: none; 
    display: flex;
@@ -72,6 +70,7 @@ footer {
     opacity: 0.7;
 }
 
+/*---Fim---*/
 .fim {
     background: #266c8f;
     width: 100vw;
