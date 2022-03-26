@@ -37,11 +37,10 @@ form input, form button {
 .nav-item {
     color: white;
     text-decoration: none;
-    transition: 0.3s;
+    transition: color .4s ease;
 }
 
 .nav-item:hover {
-    box-shadow: 0 1px #fff;
     opacity: 0.7;
 }
 
