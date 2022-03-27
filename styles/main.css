@@ -78,6 +78,7 @@ h2 {
 }
 
 .ver-mais:hover {
+    transition: all 0.3s ease-in;
     opacity: 0.7;
 }
 
@@ -94,5 +95,4 @@ h2 {
 .desconto-produto {
     color: gray;
     text-decoration: line-through;
-
 }
