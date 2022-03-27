@@ -67,7 +67,7 @@ h2 {
 }
 
 .ver-mais {
-    background-color: #aadef8;
+    background-color: #51b6e9;
     padding: 5px 15px 5px 15px;
     margin-bottom: 8px;
     text-transform: uppercase;
@@ -82,3 +82,12 @@ h2 {
     opacity: 0.7;
 }
 
+/*---Subtítulo style---*/
+
+.sessao {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+                 Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;      
+}
