@@ -36,7 +36,7 @@ main button {
 
 #box-login {
     width: 35%;
-    height: 300px;
+    height: 450px;
     background: #409ac7;
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
@@ -63,7 +63,20 @@ main button {
     padding: 10px;
 }
 
+.input-email2, .input-senha2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
 .input-email input, .input-senha input {
+    width: 200%;
+    padding: 5px;
+}
+
+.input-email2 input, .input-senha2 input {
     width: 200%;
     padding: 5px;
 }
