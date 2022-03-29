@@ -9,8 +9,8 @@
         
         <!--CSS-->
         <link rel="stylesheet" type="text/css" href="styles/navbar.css">
-        <link rel="stylesheet" type="text/css" href="styles/main.css">
         <link rel="stylesheet" type="text/css" href="styles/footer.css">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
         <link rel="stylesheet" type="text/css" href="styles/login.css">
 
         <!--Font-awesome-->
@@ -90,13 +90,28 @@
         
         <main>
             <!--Área de login-->
-            <div id="box-login">
-                <h2 class="login-titulo">Login</h2>
-                <label for="e-mail">E-mail</label>
-                <input type="text" class="input-login" placeholder="E-mail"> <br<br>
-                <label for="senha">Senha</label>
-                <input type="password" class="input-login" placeholder="Senha">
-                <button>Entrar</button>
+            <div id="container">
+                <!--Box do login-->
+                <div id="box-login">
+                    <!--Título-->
+                    <p class="login-titulo">Login</p>
+                    <!--Fim título-->
+                    <!--E-mail-->
+                    <div class="input-email">
+                        <label for="e-mail">E-mail</label>
+                        <input type="text" class="input-login" placeholder="E-mail"><br<br>
+                    </div>
+                    <!--Fim e-mail-->
+                    <!--Senha-->
+                    <div class="input-senha">
+                        <label for="senha">Senha</label>
+                        <input type="password" class="input-login" placeholder="Senha">
+                    </div>
+                    <!--Fim senha-->
+                    
+                    <button>Entrar</button>
+                </div>
+                <!--Fim box do login-->
             </div>
             <!--Fim área de login-->
         </main>

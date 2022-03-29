@@ -11,7 +11,7 @@ footer {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
                  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
                  'Helvetica Neue', sans-serif;
-    padding-top: 40px;
+    padding-top: 30px;
     color: white;
 }
 
@@ -28,7 +28,8 @@ footer {
     font-size: 24px;
     font-weight: 400;
     text-transform: capitalize;
-    line-height: 3rem;
+    line-height: 2rem;
+    margin-top: 0px;
 }
 
 .conteudo-footer h4 {
@@ -47,11 +48,11 @@ footer {
 
 /*---Contatos---*/
 .contatos {
-   list-style: none; 
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin: 1rem 0 3rem 0;
+    list-style: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13px;
 }
 
 .contatos li {
