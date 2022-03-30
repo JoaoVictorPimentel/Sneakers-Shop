@@ -29,12 +29,13 @@
             <!--Login/Registro-->
             <div class="login">
                 <div class="text-login">
-                    <a class="login-item" href="">Login</a>
+                    <a class="login-item" href="login.html">Login</a>
                     <p class ="login-item" style="color: white;">/</p>
                     <a class="login-item" href="registro.html">Registre-se</a> 
                 </div>        
             </div>
             <!--Fim do Login/Registro-->
+            
             <!--Inicio da navbar-->
             <nav id="navbar">
 
@@ -88,50 +89,90 @@
         </header>
         <!--Fim da barra de navegação-->
         
+        <!--Corpo-->
         <main>
-            <!--Área de login-->
+            <!--Área de Registro-->
             <div id="container">
-                <!--Box do login-->
+                
+                <!--Box de Registro-->
                 <div id="box-login">
+                    
                     <!--Título-->
                     <p class="login-titulo">Registre-se</p>
                     <!--Fim título-->
-                    <!--E-mail-->
-                    <div class="input-email">
-                        <label for="e-mail">E-mail</label>
-                        <input type="text" class="input-login" placeholder="E-mail"><br<br>
+                    
+                    <!--Informações-->
+                    <div class="informacoes">
+                        
+                        <!--Nome-->
+                        <div class="input-nome">
+                            <label for="text">Nome</label>
+                            <input type="text" class="input-login" placeholder="Nome"><br<br>
+                        </div>
+                        <!--Fim nome-->
+                        
+                        <!--Sobrenome-->
+                        <div class="input-sobrenome">
+                            <label for="text">Sobrenome</label>
+                            <input type="text" class="input-login" placeholder="Sobrenome"><br<br>
+                        </div>
+                        <!--Fim Sobrenome-->
+                        
+                        <!--E-mail-->
+                        <div class="input-email">
+                            <label for="e-mail">E-mail</label>
+                            <input type="text" class="input-login" placeholder="E-mail"><br<br>
+                        </div>
+                        <div class="input-email2">
+                            <label for="e-mail">Confirme seu e-mail</label>
+                            <input type="text" class="input-login" placeholder="E-mail"><br<br>
+                        </div>
+                        <!--Fim e-mail-->
+                        
+                        <!--Senha-->
+                        <div class="input-senha">
+                            <label for="senha">Senha</label>
+                            <input type="password" class="input-login" placeholder="Senha">
+                        </div>
+                        <div class="input-senha2">
+                            <label for="senha">Confirme sua senha</label>
+                            <input type="password" class="input-login" placeholder="Senha">
+                        </div>
+                        <!--Fim senha-->
+                        
+                        <!--Celular-->
+                        <div class="input-celular">
+                            <label for="number">Celular</label>
+                            <input type="text" class="input-login" placeholder="(xx) xxxxx-xxxx">
+                        </div>
+                        <!--Fim Celular-->                        
+                        
+                        <!--Botão entrar, recuperar e registrar-se-->
+                        <div class="botao"><button>Registrar</button></div>
+                        <div class="link">
+                            <a href="login.html">Já possui uma conta? Faça o login</a>
+                        </div>
+                        <!--Fim botão entrar, recuperar e registrar-se-->
+                    
                     </div>
-                    <div class="input-email2">
-                        <label for="e-mail">Confirme seu e-mail</label>
-                        <input type="text" class="input-login" placeholder="E-mail"><br<br>
-                    </div>
-                    <!--Fim e-mail-->
-                    <!--Senha-->
-                    <div class="input-senha">
-                        <label for="senha">Senha</label>
-                        <input type="password" class="input-login" placeholder="Senha">
-                    </div>
-                    <div class="input-senha2">
-                        <label for="senha">Confirme sua senha</label>
-                        <input type="password" class="input-login" placeholder="Senha">
-                    </div>
-                    <!--Fim senha-->
-                    <button>Entrar</button>
-                    <!--Botão entrar, recuperar e registre-se-->
-                    <div class="link">
-                        <a href="login.html">Já possui uma conta? Faça o login</a>
-                    </div>
-                    <!--Fim botão entrar, recuperar e registre-se-->
+                    <!--Fim Informações-->
+                
                 </div>
-                <!--Fim box do login-->
+                <!--Fim box de Registro-->
+            
             </div>
-            <!--Fim área de login-->
-        </main>
+            <!--Fim área de Registro-->
 
+        </main>
+        <!--Corpo-->
+
+        <!--Footer-->
         <footer>
             <section id="section-contatos">
-                <!--Início do footer-->
+                
+                <!--Rodapé-->
                 <div class="conteudo-footer">
+                    
                     <!--Nome da loja-->
                     <h3>JV Sneakers</h3>
                     <!--Fim do nome da loja-->
@@ -152,14 +193,16 @@
                     </ul>
                     <!--Fim dos meios de contato-->
                 </div>
+                <!--Fim Rodapé-->
 
-                <!--Fim da página-->
+                <!--Final da página-->
                 <div class="fim">
                     <p>copyright &copy;2022 JV Sneakers. designed by <span>João Dev</span></p>
                 </div>
-                <!--Fim do footer-->
+                <!--Fim final da página-->
+                
         </footer>
-            </section>
+        <!--Fim do footer-->
         
         
         <script src="script.js"></script>

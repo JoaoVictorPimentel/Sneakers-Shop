@@ -4,15 +4,11 @@
     box-sizing: border-box;
 }
 
-html {
-    height: 100%;
-}
-
 body {
     background: #F8F4E3;
     display: flex;
-    height: 100%;
-    overflow: hidden;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 main {
@@ -22,21 +18,19 @@ main {
     width: 100%;
 }
 
-main button {
-    width: 15%;
-}
-
 #container {
-    margin: 0 auto;
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 56vh;
 }
 
 #box-login {
     width: 35%;
-    height: 450px;
+    height: 100%;
+    padding: 25px;
+    margin-top: 40px;
+    margin-bottom: 50px;
     background: #409ac7;
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
@@ -55,30 +49,42 @@ main button {
     letter-spacing: 4px;
 }
 
-.input-email, .input-senha{
+.informacoes {
+    margin-top: 10px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.botao button {
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botao button:hover {
+    opacity: 0.7;
+}
+
+.input-email, .input-senha, .input-email2, .input-senha2, .input-nome, .input-sobrenome, .input-celular{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 10px;
-}
-
-.input-email2, .input-senha2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.input-email input, .input-senha input {
-    width: 200%;
     padding: 5px;
 }
 
-.input-email2 input, .input-senha2 input {
-    width: 200%;
+.input-email input, .input-senha input, .input-email2 input, .input-senha2 input, .input-nome input, .input-sobrenome input, .input-celular input {
+    width: 150%;
     padding: 5px;
+    border: none;
+    border-radius: 5px;
 }
 
 .link a {
@@ -86,10 +92,10 @@ main button {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     padding: 5px;
     text-decoration: none;
     transition: color .4s ease;
+    margin-top: 10px;
 }
 
 .link a:hover {
