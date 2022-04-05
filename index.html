@@ -309,6 +309,10 @@
                 // Optional parameters
                 direction: 'horizontal',
                 loop: true,
+                spaceBetween: 0,
+                hashNavigation: true,
+                mousewheel: true,
+                speed: 700,
 
                 // If we need pagination
                 pagination: {
@@ -321,9 +325,13 @@
                     prevEl: '.swiper-button-prev',
                 },
 
-                // And if we need scrollbar
-                scrollbar: {
-                    el: '.swiper-scrollbar',
+                autoplay: {
+                    delay: 5000,
+                    spaceBetween: 0,
+                    hashNavigation: true,
+                    mousewheel: true,
+                    speed: 900,
+                    disableOnInteraction: false,
                 },
             });
           </script>
