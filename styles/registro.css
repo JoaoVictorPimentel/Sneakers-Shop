@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #F8F4E3;
+    background: #748386;
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -31,7 +31,7 @@ main {
     padding: 25px;
     margin-top: 40px;
     margin-bottom: 50px;
-    background: #409ac7;
+    background: #252627;
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
@@ -85,6 +85,7 @@ main {
     padding: 5px;
     border: none;
     border-radius: 5px;
+    margin-top: 5px;
 }
 
 .link a {

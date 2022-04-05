@@ -12,6 +12,9 @@
         <link rel="stylesheet" type="text/css" href="styles/main.css">
         <link rel="stylesheet" type="text/css" href="styles/footer.css">
 
+        <!--Slides-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
         <!--Font-awesome-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
@@ -89,7 +92,31 @@
         
         <!--Corpo-->
         <main>
-            
+            <!--Slides-->
+            <section>
+                <!--Container dos Slides-->
+                <div class="swiper">
+                    
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img style="background-size: contain;" src="Imagens/Slides/Banner1.png"></div>
+                    <div class="swiper-slide"><img class="img-slide" src="Imagens/Slides/Banner2.webp"></div>
+                    <div class="swiper-slide"><img src="Imagens/Slides/Banner3.png"></div>
+                    ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>       
+                    <div class="swiper-button-next"></div>
+
+                </div>
+                <!--Fim Container dos Slides-->
+            </section>
+            <!--Fim Slides-->
+
             <!--Produtos-->
             <section id="section-produtos">
                 
@@ -273,8 +300,34 @@
         </footer>
         <!--Fim do footer-->
         
-        
+        <!--JavaScript-->
         <script src="script.js"></script>
+        <!--Slides-->
+        <script type="module">
+            import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+          
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                // And if we need scrollbar
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                },
+            });
+          </script>
     </body>
 
 </html>
