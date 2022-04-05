@@ -36,8 +36,14 @@ main {
 }
 
 .img-slide {
-    width: 100%;
+    width: 90%;
     height: 600px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*---Card style---*/
