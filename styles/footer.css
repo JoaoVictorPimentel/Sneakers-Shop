@@ -14,6 +14,20 @@ footer {
     padding-top: 30px;
     color: white;
 }
+/*---ScrollBar---*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F8F4E3;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2c80aa;
+    border-radius: 30px;
+}
 
 /*---Conteúdo---*/
 .conteudo-footer {
