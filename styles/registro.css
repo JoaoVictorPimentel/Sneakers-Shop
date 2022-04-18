@@ -86,6 +86,7 @@ main {
     border: none;
     border-radius: 5px;
     margin-top: 5px;
+    text-align: center;
 }
 
 .link a {
