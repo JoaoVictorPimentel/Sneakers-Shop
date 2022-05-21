@@ -1,0 +1,96 @@
+main {
+    display: flex;
+    background-color: #748386;
+}
+
+/*--- Lado Esquerdo ---*/
+img {
+    height: 500px;
+}
+
+.left-side {
+    display: flex;
+    margin: 50px;
+    margin-left: 200px;
+}
+
+.border {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .6);
+    border: 3px solid #252627;
+    border-radius: 8px;
+}
+
+/*--- Lado Direito ---*/
+h1 {
+
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.buttons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.buttons button {
+    color: white;
+    height: 40px;
+    background-color: #363738;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    font-size: 85%;
+    font-weight: 550;
+}
+
+button:hover{
+    transition: all 0.3s ease-in;
+    opacity: 0.7;
+}
+
+.add-carrinho {
+    color: white;
+    width: 250px;
+    height: 50px;
+    background-color: #252627;
+    padding: 5px 15px 5px 15px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+}
+
+.compre-ja {
+    color: white;
+    width: 250px;
+    height: 50px;
+    background-color: #151616;
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+}
+
+.valor {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
