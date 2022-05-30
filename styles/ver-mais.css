@@ -29,7 +29,7 @@ h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 
 .buttons {
@@ -93,4 +93,12 @@ button:hover{
     display: flex;
     flex-direction: column;
     text-align: left;
+}
+
+.valor-promocao {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-decoration: line-through;
 }
